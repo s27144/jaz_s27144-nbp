@@ -1,0 +1,8 @@
+CREATE TABLE `nbp` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`waluta` VARCHAR(15),
+	`start_date` DATE,
+	`end_date` DATE,
+	`kurs` FLOAT,
+	`time` DATETIME
+);
